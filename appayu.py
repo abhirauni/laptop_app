@@ -8,8 +8,8 @@ import numpy as np
 
 
 # import the model
-pipe = pickle.load(open('pipe4.pkl','rb'))
-df = pickle.load(open('df4.pkl','rb'))
+pipe = joblib.load(open('pipe4.pkl','rb'))
+df = joblib.load(open('df4.pkl','rb'))
 
 
 st.title("LAPTOP PREDICTOR")
